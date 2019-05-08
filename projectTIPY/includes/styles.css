@@ -1,0 +1,76 @@
+/*
+    стили всех страниц на сайте
+*/
+
+h2, th, header{
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: cadetblue;
+    vertical-align: top;
+}
+
+input, button{
+    border-radius: 5pt;
+    background-color: lightblue;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    padding: 3px;
+}
+
+.cardContent p {
+    text-indent: 15pt;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    background: linear-gradient(90deg, black, darkblue, black);
+}
+
+div.cardContent { 
+    border-radius: 5pt;
+    width: 140pt;
+    height: 180pt;
+    padding: 0pt;
+    margin: 5pt;
+    
+    text-align: justify;
+    font-size: 10pt;
+    
+    border: 1pt solid white;
+    background: linear-gradient(60deg, black, blue);
+    
+}
+
+div.card {
+    width: 150pt;
+    height: 190pt;
+    margin: auto;
+}
+
+.main {
+    max-width: 600pt;
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+.textStyle {
+    color: lightblue;
+}
+
+.aStyle {
+    color: antiquewhite;
+}
+
+.cardSubmitBtn {
+    padding: 5px;
+    font-family: inherit;
+    background-color: transparent;
+    text-align: justify;
+}
